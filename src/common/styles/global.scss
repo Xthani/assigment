@@ -1,0 +1,14 @@
+// BOOTSTRAP
+
+.form-check-input {
+  &:checked {
+    background-color: $orangePrimary;
+    border-color: $orangePrimary;
+  }
+
+  &:focus {
+    border-color: none;
+    outline: 0;
+    box-shadow: none;
+  }
+}

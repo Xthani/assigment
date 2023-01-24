@@ -1,0 +1,42 @@
+@import "../../common/styles/variables.scss";
+
+.bs-tooltip-bottom .tooltip-arrow::before {
+  border-bottom-color: $tooltipBackground;
+  left: 2px;
+}
+
+.tooltip.show {
+  opacity: 1;
+}
+
+.tooltip-inner {
+  border-radius: 0;
+  background-color: $tooltipBackground;
+  color: $white;
+}
+
+.tooltip {
+  &__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $gray;
+    width: 20px;
+    height: 20px;
+    border: 1px solid $gray;
+    border-radius: 50%;
+    padding: 5px;
+  }
+
+  &__text {
+    font-size: 12px;
+  }
+}
+
+.info-card__container {
+  width: 500px;
+}
+
+.input__container {
+  width: 250px;
+}
